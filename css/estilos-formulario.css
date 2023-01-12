@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.form-contacto{
+    width: 80%;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-contacto h4{
+    color: #24303c;
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;   
+}
+
+.controles{
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    background: #24303c;
+    border-radius: 4px;
+    margin-bottom: 16px; 
+    border: 1px solid #1f53c5;
+    font-size: 18px;
+    color: white;   
+    
+}
+.form-contacto .boton{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    
+}
+
+.form-contacto .boton:hover{
+    background-color: rgb(51, 196, 15);
+    color: white;
+    
+
+
+}
